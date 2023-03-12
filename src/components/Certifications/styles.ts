@@ -4,8 +4,9 @@ import styled from "styled-components";
 export const Container = styled.div`
     background: black;
     display: flex;
-    width: 400px;
     flex-direction: column;
+    width: 100%;
+    
     padding: 48px 24px 48px 24px;
     gap: 24px;
     align-items: center; 

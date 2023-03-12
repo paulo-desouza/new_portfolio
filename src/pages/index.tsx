@@ -9,6 +9,8 @@ import { Toolbox } from '@/components/Toolbox'
 import { Certifications } from '@/components/Certifications'
 import { Experience } from '@/components/Experience'
 import { Projects } from '@/components/Projects'
+import { Column1 } from '@/components/Column1'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,27 +25,25 @@ export default function Home() {
       <main className={styles.main}>
         
         <HomeContainer> 
-          <div style={{ paddingTop: 20 }}>
-
-          
+          <Column1>
+            
             <Profile />
-
             <Certifications/>
-          
-          </div>
-          <div style={{ paddingTop: 20, paddingBottom: 20}}>
+
+          </Column1>
+          <Column1>
 
             <Skills />
             <Toolbox />
 
-          </div>
-          <div style={{ paddingTop: 20, paddingBottom: 20}}>
+          
+          </Column1>
+          <Column1>
 
             <Experience />
-
             <Projects />
 
-          </div>
+          </Column1>
         </HomeContainer>
       </main>
     </>
