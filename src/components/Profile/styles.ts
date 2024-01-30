@@ -5,21 +5,20 @@ export const Container = styled.div`
 
     width: 100%;
     background: black;
-    padding: 48px 24px 48px 24px;
-    gap: 24px;
+    padding: 24px 40px 24px 40px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center; 
     font-size: 14px;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 10px 45px black;
-    margin: 5px 20px 10px 20px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    margin: 5px 5px 5px 5px;
 `;
 
 export const Img = styled.div`
 
-    
     width:150px;
     height: 150px;
     border-radius: 120px;
@@ -30,19 +29,18 @@ export const Img = styled.div`
     
 `;
 
-export const Box = styled.div`
+export const Left = styled.div`
 
-    display: flex;
-    border-top: 2px solid white;
-    padding: 3px;
-    font-size: large;
+    width: 100%;
+    list-style-position: inside;
     
 `;
 
-export const BoxHolder = styled.div`
+export const Center = styled.div`
 
-    flex-direction: column;
-    display:flex;
-    width:100%;
+    margin: 0px;
+    padding: 0px;
+    
 
-`;
+
+`

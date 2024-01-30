@@ -1,13 +1,68 @@
-import { Box, BoxHolder, Container, Img } from "./styles";
+import { Container, Img, Left, Center} from "./styles";
 
 export function Profile() { 
     return <Container> 
 
-    
       <Img />
-      <h1>Paulo de Souza</h1>
+      <Left>
+        <h1>Paulo de Souza</h1>
+        
+          
+        <a href="https://www.github.com/paulo-desouza/" target="_blank" rel="noreferrer">
+           Github
+        </a>
+         &nbsp;&nbsp; | &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/paulo-desouza/" target="_blank" rel="noreferrer">
+          Linkedin 
+        </a>
+        &nbsp;&nbsp; | &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/paulo-desouza/" target="_blank" rel="noreferrer">
+          Resume 
+        </a>
+        <br />
+        paulo@desouza-tech.com 
+        
+        </Left>
       
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae quas minus aut impedit earum. Odio culpa, voluptates asperiores repudiandae molestias, perspiciatis, nulla rem unde nihil aspernatur perferendis provident ipsum.</p>
+      
+
+      <Left>
+        <h2>Main Skills</h2>
+        
+          <ul>
+
+            <li>Backend Developer</li>
+            <li>Network Engineer</li>
+            <li>Linux Administration</li>
+          
+          </ul>
+        
+      </Left>
+
+      <Left>
+        <h2>Certifications</h2>
+        
+          <ul>
             
-        </Container>;
+            <li><a href="#">Python PCPP1</a></li>
+            <li><a href="#">WatchGuard Network Security</a></li>
+            <li><a href="#">CompTIA A+</a></li>
+
+          </ul>
+        
+      </Left>
+
+      <Left>
+        <h2>Experience</h2> 
+          <h4>Viener4Gates</h4>
+          <div>Network Engineer <br />Dec 2022 - Dec 2023 </div>
+          <br />
+
+          <h4>Matri Truck</h4>
+          <div>Logistics Operations Manager <br />Jan 2021 - Dec 2022 </div>
+          <br />
+      </Left>
+
+    </Container>;
+
 }

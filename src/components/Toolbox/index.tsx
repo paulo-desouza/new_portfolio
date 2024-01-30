@@ -10,8 +10,8 @@ export function Toolbox() {
     {
       return (
         <Container>
-          <h1>Toolbox</h1>
-          <p>
+          <h1>Tools</h1>
+          <div>
             <LogoBox>
               <Expand>
                 
@@ -23,6 +23,7 @@ export function Toolbox() {
                       width="55"
                       height="55"
                     />
+                    Linux
                   </a>
                 </Logo>
               </Expand>
@@ -39,6 +40,7 @@ export function Toolbox() {
                       width="55"
                       height="55"
                     />
+                    Bash
                   </a>
                 </Logo>
               </Expand>
@@ -51,6 +53,7 @@ export function Toolbox() {
                       width="55"
                       height="55"
                     />
+                    Python
                   </a>
                 </Logo>
               </Expand>
@@ -70,21 +73,19 @@ export function Toolbox() {
                       width="55"
                       height="55"
                     />
+                    Docker
                   </a>
                 </Logo>
               </Expand>
               <Expand>
                 <Logo>
-                  <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
-                    <Image
-                      src="/logos/kubernetes.png"
-                      alt="Kubernetes"
-                      width="55"
-                      height="55"
-                    />
+                  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                    <Image src="/logos/git.png" alt="Git" width="55" height="55" />
+                    Git
                   </a>
                 </Logo>
-              </Expand>
+                </Expand>
+            
               <Expand>
                 <Logo>
                   <a
@@ -98,6 +99,7 @@ export function Toolbox() {
                       width="55"
                       height="55"
                     />
+                    Ansible
                   </a>
                 </Logo>
               </Expand>
@@ -105,12 +107,6 @@ export function Toolbox() {
 
             <LogoBox>
               <Expand>
-                <Logo>
-                  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-                    <Image src="/logos/git.png" alt="Git" width="55" height="55" />
-                  </a>
-                </Logo>
-                </Expand><Expand>
                 <Logo>
                   <a
                     href="https://www.jenkins.io/"
@@ -180,7 +176,7 @@ export function Toolbox() {
                 </Logo>
               </Expand>
             </LogoBox>
-          </p>
+          </div>
         </Container>
       );
     }
@@ -189,7 +185,7 @@ export function Toolbox() {
     return (
       <Container>
         <h1>Toolbox</h1>
-        <p>
+        <div>
           <LogoBox2>
             <Expand>
               
@@ -358,7 +354,7 @@ export function Toolbox() {
               </Logo>
             </Expand>
           </LogoBox2>
-        </p>
+        </div>
       </Container>
     );
   }

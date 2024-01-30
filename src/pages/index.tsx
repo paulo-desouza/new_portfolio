@@ -1,15 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { HomeContainer } from '@/components/HomeContainer'
 import { Profile } from '@/components/Profile'
-import { Skills } from '@/components/Skills'
 import { Toolbox } from '@/components/Toolbox'
-import { Certifications } from '@/components/Certifications'
-import { Experience } from '@/components/Experience'
-import { Projects } from '@/components/Projects'
+import { Project1 } from '@/components/Project'
 import { Column1 } from '@/components/Column1'
+import { Column2 } from '@/components/Column2'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -26,24 +24,20 @@ export default function Home() {
         
         <HomeContainer> 
           <Column1>
-            
             <Profile />
-            <Certifications/>
-
-          </Column1>
-          <Column1>
-
-            <Skills />
             <Toolbox />
-
-          
           </Column1>
-          <Column1>
 
-            <Experience />
-            <Projects />
+          <Column2>
+            <Project1/>
+          </Column2>
 
-          </Column1>
+          <Column2>
+            <Project1/>
+            <Project1/>
+            <Project1/>
+            
+          </Column2>
         </HomeContainer>
       </main>
     </>
