@@ -86,7 +86,7 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   
-  background-color: #1A8C68;
+  background: url('/img/deep_dreams.png');
 }
 
 h2 {
