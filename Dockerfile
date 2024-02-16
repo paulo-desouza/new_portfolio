@@ -12,9 +12,6 @@ COPY . .
 
 RUN npm run build
 
-COPY .next ./.next
-
-
 COPY ./entrypoint.sh /
 ENTRYPOINT ["sh", "/entrypoint.sh"]
 
