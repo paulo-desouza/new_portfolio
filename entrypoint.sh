@@ -1,3 +1,3 @@
 #!/bin/sh
 
-pm2 start npm --name "new_portfolio" -- start 
+# pm2 start npm --name "new_portfolio" -- start 
