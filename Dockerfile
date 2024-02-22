@@ -10,4 +10,8 @@ COPY . .
 
 RUN npm run build
 
+RUN npm run export
+
+
+
 
