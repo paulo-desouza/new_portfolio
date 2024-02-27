@@ -28,7 +28,7 @@ export function AWS_Web_Server() {
       <div>
         AWS EC2 instance running my Django Applications with Gunicorn and NGINX, as well as a mySQL Database, Ghost Framework Blog, 
         and this very portfolio, which was developed with the Next.JS framework. <br /> <br />
-        The server's configuration and deployment of applications is fully automated, making use of Docker, docker-compose and Bash Scripts. <br />
+        The server&apos;s configuration and deployment of applications is fully automated, making use of Docker, docker-compose and Bash Scripts. <br />
         <br />
         Leveraging tools such as Prometheus, Loki, Snort and Grafana, I can monitor the server for performance, 
          bugs, crashes, or potential breaches and security concerns by collecting and managing log data.
@@ -81,7 +81,8 @@ export function Django_RE() {
       
       <div>
 
-        This website will enable serving content only to the accounts who own said content in the system. 
+        This website will enable serving content only to the accounts who own said content in the system. The admin portal allows for website manager to add new Customer Users, add new Content, and link 
+        the contents to the customers who are allowed access. Users can be activated/deactivated as well. 
         <br /><br />
         While it is simpler than the previous project, it is a model that can be used by various business models to post and share paid content with the specified paying customer only. 
         <br /><br />
@@ -170,9 +171,9 @@ export function Discord() {
       <div>
 
         Leveraging the Discord API, FFMPEG, and youtube_dl, this Bot will receive a command from any user in the Group Voice Call, requesting a music to be played from YouTube. <br /><br />
-        The program will then search and scrape YouTube to find the requested tune, return a JSON file with all the page's contents, and play the song in the call for all participants to enjoy together.  
+        The program will then search and scrape YouTube to find the requested tune, return a JSON file with all the page&apos;s contents, and play the song in the call for all participants to enjoy together.  
        
-         Currently developing the functionality to upload, download and play music from the Bot server's storage. 
+         Currently developing the functionality to upload, download and play music from the Bot server&apos;s storage. 
         <br /><br />
         Created for educational purposes only.
 
