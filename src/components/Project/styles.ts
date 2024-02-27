@@ -17,3 +17,51 @@ export const Container = styled.div`
 
 
 `
+
+export const Img = styled.div`
+
+    width:500px;
+    height: 250px;
+    border-radius: 20px;
+    background: url('/img/django1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+`;
+
+export const Img2 = styled.div`
+
+    width:500px;
+    height: 250px;
+    border-radius: 20px;
+    background: url('/img/django2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+`;
+
+export const Img3 = styled.div`
+
+    width:500px;
+    height: 250px;
+    border-radius: 20px;
+    background: url('/img/data1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+`;
+
+export const Img4 = styled.div`
+
+    width:500px;
+    height: 250px;
+    border-radius: 20px;
+    background: url('/img/data3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+`;

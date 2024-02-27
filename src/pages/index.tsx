@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 import { HomeContainer } from '@/components/HomeContainer'
 import { Profile } from '@/components/Profile'
 import { Toolbox } from '@/components/Toolbox'
-import { Project1 } from '@/components/Project'
+import { Project1, AWS_Web_Server, Django_Reception, Django_RE, Data, Discord, Network } from '@/components/Project'
 import { Column1 } from '@/components/Column1'
 import { Column2 } from '@/components/Column2'
 
@@ -29,13 +29,16 @@ export default function Home() {
           </Column1>
 
           <Column2>
-            <Project1/>
+            <AWS_Web_Server/>
+            <Data/> 
           </Column2>
 
           <Column2>
-            <Project1/>
-            <Project1/>
-            <Project1/>
+            <Django_Reception/>
+            <Django_RE/>
+            <Network/>
+
+            <Discord/>
             
           </Column2>
         </HomeContainer>

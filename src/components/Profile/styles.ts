@@ -31,16 +31,14 @@ export const Img = styled.div`
 
 export const Left = styled.div`
 
-    width: 100%;
+    width: 250px;
     list-style-position: inside;
     
 `;
 
 export const Center = styled.div`
 
-    margin: 0px;
-    padding: 0px;
-    
+text-align: center;
 
 
 `

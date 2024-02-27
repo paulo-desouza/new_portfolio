@@ -10,7 +10,7 @@ export function Toolbox() {
     {
       return (
         <Container>
-          <h1>Tools</h1>
+          <h1>Main Tools</h1>
           <div>
             <LogoBox>
               <Expand>
@@ -22,8 +22,7 @@ export function Toolbox() {
                       alt="Linux"
                       width="55"
                       height="55"
-                    />
-                    Linux
+                    /> <br /> Linux
                   </a>
                 </Logo>
               </Expand>
@@ -40,7 +39,7 @@ export function Toolbox() {
                       width="55"
                       height="55"
                     />
-                    Bash
+                    <br /> Bash
                   </a>
                 </Logo>
               </Expand>
@@ -52,8 +51,7 @@ export function Toolbox() {
                       alt="Python"
                       width="55"
                       height="55"
-                    />
-                    Python
+                    /> <br /> Python
                   </a>
                 </Logo>
               </Expand>
@@ -72,8 +70,7 @@ export function Toolbox() {
                       alt="Docker"
                       width="55"
                       height="55"
-                    />
-                    Docker
+                    /> <br /> Docker
                   </a>
                 </Logo>
               </Expand>
@@ -81,7 +78,7 @@ export function Toolbox() {
                 <Logo>
                   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                     <Image src="/logos/git.png" alt="Git" width="55" height="55" />
-                    Git
+                  <br />Git
                   </a>
                 </Logo>
                 </Expand>
@@ -89,17 +86,16 @@ export function Toolbox() {
               <Expand>
                 <Logo>
                   <a
-                    href="https://www.ansible.com/"
+                    href="https://www.djangoproject.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image
-                      src="/logos/ansible.png"
-                      alt="Ansible"
+                      src="https://cdn.iconscout.com/icon/free/png-256/django-1-282754.png"
+                      alt="Django"
                       width="55"
                       height="55"
-                    />
-                    Ansible
+                    /> <br /> Django
                   </a>
                 </Logo>
               </Expand>
@@ -109,13 +105,194 @@ export function Toolbox() {
               <Expand>
                 <Logo>
                   <a
-                    href="https://www.jenkins.io/"
+                    href="https://docs.github.com/en/actions"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image
-                      src="/logos/jenkins.png"
-                      alt="Jenkins"
+                      src="https://invisprints.github.io/blog/images/fastpages_posts/actions/actions_logo.png"
+                      alt="Github Actions"
+                      width="55"
+                      height="55"
+                    /> <br /> Github <br /> Actions
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://aws.amazon.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image src="/logos/aws.png" alt="AWS" width="55" height="55" /> <br /> AWS
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://nginx.org/en/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image src="https://www.smythsys.es/wordpress/wp-content/uploads/2017/06/nginx-logo.png" alt="NGINX" width="55" height="55" />
+                    <br /> nginx
+                  </a>
+                </Logo>
+              </Expand>
+            </LogoBox>
+            <LogoBox>
+              <Expand>
+                <Logo>
+                  <a href="https://prometheus.io/" target="_blank" rel="noreferrer">
+                    <Image
+                      src="/logos/prometheus.png"
+                      alt="Prometheus"
+                      width="55"
+                      height="55"
+                    /> <br />Prometheus
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer">
+                    <Image
+                      src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png"
+                      alt="JavaScript"
+                      width="55"
+                      height="55"
+                    /> <br /> JavaScript
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://react.dev/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="https://logospng.org/download/react/logo-react-1024.png"
+                      alt="React"
+                      width="55"
+                      height="55"
+                    /> <br />React
+                  </a>
+                </Logo>
+              </Expand>
+            </LogoBox>
+          </div>
+        </Container>
+      );
+    }
+  else
+  {
+    return (
+      <Container>
+        <h1>Main Tools</h1>
+        <div>
+            <LogoBox2>
+              <Expand>
+                
+                <Logo>
+                  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+                    <Image
+                      src="/logos/linux.png"
+                      alt="Linux"
+                      width="55"
+                      height="55"
+                    />
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://www.gnu.org/software/bash/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="/logos/bash.png"
+                      alt="Bash"
+                      width="55"
+                      height="55"
+                    />
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+                    <Image
+                      src="/logos/python.png"
+                      alt="Python"
+                      width="55"
+                      height="55"
+                    />
+                  </a>
+                </Logo>
+              </Expand>
+            </LogoBox2>
+
+            <LogoBox2>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://www.docker.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="/logos/docker.png"
+                      alt="Docker"
+                      width="55"
+                      height="55"
+                    />
+                  </a>
+                </Logo>
+              </Expand>
+              <Expand>
+                <Logo>
+                  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                    <Image src="/logos/git.png" alt="Git" width="55" height="55" />
+                  
+                  </a>
+                </Logo>
+                </Expand>
+            
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://www.djangoproject.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="https://cdn.iconscout.com/icon/free/png-256/django-1-282754.png"
+                      alt="Django"
+                      width="55"
+                      height="55"
+                    />
+                  </a>
+                </Logo>
+              </Expand>
+            </LogoBox2>
+
+            <LogoBox2>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://docs.github.com/en/actions"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="https://invisprints.github.io/blog/images/fastpages_posts/actions/actions_logo.png"
+                      alt="Github Actions"
                       width="55"
                       height="55"
                     />
@@ -133,8 +310,19 @@ export function Toolbox() {
                   </a>
                 </Logo>
               </Expand>
-            </LogoBox>
-            <LogoBox>
+              <Expand>
+                <Logo>
+                  <a
+                    href="https://aws.amazon.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image src="https://www.smythsys.es/wordpress/wp-content/uploads/2017/06/nginx-logo.png" alt="NGINX" width="55" height="55" />
+                  </a>
+                </Logo>
+              </Expand>
+            </LogoBox2>
+            <LogoBox2>
               <Expand>
                 <Logo>
                   <a href="https://prometheus.io/" target="_blank" rel="noreferrer">
@@ -149,10 +337,10 @@ export function Toolbox() {
               </Expand>
               <Expand>
                 <Logo>
-                  <a href="https://grafana.com/" target="_blank" rel="noreferrer">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer">
                     <Image
-                      src="/logos/grafana.png"
-                      alt="Grafana"
+                      src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png"
+                      alt="JavaScript"
                       width="55"
                       height="55"
                     />
@@ -162,199 +350,21 @@ export function Toolbox() {
               <Expand>
                 <Logo>
                   <a
-                    href="https://www.elastic.co/"
+                    href="https://react.dev/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image
-                      src="/logos/elk.png"
-                      alt="ELK Stack"
+                      src="https://logospng.org/download/react/logo-react-1024.png"
+                      alt="React"
                       width="55"
                       height="55"
                     />
                   </a>
                 </Logo>
               </Expand>
-            </LogoBox>
+            </LogoBox2>
           </div>
-        </Container>
-      );
-    }
-  else
-  {
-    return (
-      <Container>
-        <h1>Toolbox</h1>
-        <div>
-          <LogoBox2>
-            <Expand>
-              
-              <Logo>
-                <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/logos/linux.png"
-                    alt="Linux"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a
-                  href="https://www.gnu.org/software/bash/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="/logos/bash.png"
-                    alt="Bash"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a href="https://www.python.org" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/logos/python.png"
-                    alt="Python"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-          </LogoBox2>
-
-          <LogoBox2>
-            <Expand>
-              <Logo>
-                <a
-                  href="https://www.docker.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="/logos/docker.png"
-                    alt="Docker"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/logos/kubernetes.png"
-                    alt="Kubernetes"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a
-                  href="https://www.ansible.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="/logos/ansible.png"
-                    alt="Ansible"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-          </LogoBox2>
-
-          <LogoBox2>
-            <Expand>
-              <Logo>
-                <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-                  <Image src="/logos/git.png" alt="Git" width="55" height="55" />
-                </a>
-              </Logo>
-              </Expand><Expand>
-              <Logo>
-                <a
-                  href="https://www.jenkins.io/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="/logos/jenkins.png"
-                    alt="Jenkins"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a
-                  href="https://aws.amazon.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image src="/logos/aws.png" alt="AWS" width="55" height="55" />
-                </a>
-              </Logo>
-            </Expand>
-          </LogoBox2>
-          <LogoBox2>
-            <Expand>
-              <Logo>
-                <a href="https://prometheus.io/" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/logos/prometheus.png"
-                    alt="Prometheus"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a href="https://grafana.com/" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/logos/grafana.png"
-                    alt="Grafana"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-            <Expand>
-              <Logo>
-                <a
-                  href="https://www.elastic.co/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="/logos/elk.png"
-                    alt="ELK Stack"
-                    width="55"
-                    height="55"
-                  />
-                </a>
-              </Logo>
-            </Expand>
-          </LogoBox2>
-        </div>
       </Container>
     );
   }

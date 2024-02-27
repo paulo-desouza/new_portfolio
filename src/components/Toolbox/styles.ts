@@ -23,6 +23,9 @@ export const LogoBox = styled.div`
 
     display: flex;
     flex-direction: row;
+    font-size: 11px;
+    align-items: center; 
+
 
 `
 
@@ -31,6 +34,7 @@ export const LogoBox2 = styled.div`
     display: flex;
     flex-direction: row;
     gap: 50px;
+    align-items: center; 
 
 `
 
@@ -41,8 +45,12 @@ export const Logo = styled.div`
     
     
     flex-direction: column;
-    margin: 15px;
+    margin: 20px;
     display:flex;
+    text-align: center; 
+    
+
+    
     
 
 `
