@@ -20,7 +20,7 @@ export const Container = styled.div`
 
 export const Img = styled.div`
 
-    width:480px;
+    width:400px;
     height: 250px;
     border-radius: 20px;
     background: url('/img/django1.png');
@@ -32,7 +32,7 @@ export const Img = styled.div`
 
 export const Img2 = styled.div`
 
-    width:480px;
+    width:400px;
     height: 250px;
     border-radius: 20px;
     background: url('/img/django2.png');
@@ -44,7 +44,7 @@ export const Img2 = styled.div`
 
 export const Img3 = styled.div`
 
-    width:480px;
+    width:400px;
     height: 250px;
     border-radius: 20px;
     background: url('/img/data1.png');
@@ -56,7 +56,7 @@ export const Img3 = styled.div`
 
 export const Img4 = styled.div`
 
-    width:480px;
+    width:400px;
     height: 250px;
     border-radius: 20px;
     background: url('/img/data3.png');

@@ -61,7 +61,7 @@ export function Django_Reception() {
 
       </div><br />
 
-      <a href="https://drive.google.com/file/d/12FR_6_CQ93J639Y_x54HnhKMzd1BA1bT/view?usp=sharing">
+      <a href="/img/django1">
         <Img/>
       </a>
       <a href="https://drive.google.com/file/d/1BG09oPUaYwaLaSg4NbNNBag5ASo6RLZN/view?usp=sharing">
@@ -126,12 +126,12 @@ export function Data() {
         
 
       </div>
-      <a href="https://drive.google.com/file/d/1DO9biepJM4SPCE7JQQ_ebLlF1ev6dk08/view?usp=sharing">
+      <a href="/img/data1.png">
           <Img3/>
         </a>
         <br />
 
-        <a href="https://drive.google.com/file/d/1e1M6o6uWlQHAKMnIL0hwaoJOFNJa-EMj/view?usp=sharing">
+        <a href="/img/data3.png">
          <Img4/>
         </a>
 
