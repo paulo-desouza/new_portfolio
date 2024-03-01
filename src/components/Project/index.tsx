@@ -61,12 +61,12 @@ export function Django_Reception() {
 
       </div><br />
 
-      <a href="/img/django1.png">
-   <Img/>
-                      </a>
-<a href="/img/django2.png">
-    <Img2/>
-                      </a>
+      <a href="https://drive.google.com/file/d/12FR_6_CQ93J639Y_x54HnhKMzd1BA1bT/view?usp=sharing">
+        <Img/>
+      </a>
+      <a href="https://drive.google.com/file/d/1BG09oPUaYwaLaSg4NbNNBag5ASo6RLZN/view?usp=sharing">
+        <Img2/>
+      </a>
   
     </Container>
   );
@@ -114,7 +114,7 @@ export function Data() {
         was manually gathering and generating these reports before, allowing for human-errors to influence the final report. 
 
         <br /><br />
-        One of these applications was for a new report, where I designed and built the data collection as well as the reporting software.
+        Designed and built the data collection and the reporting software to suit new reporting needs as well. Most of these reports were being exporting in Excel/xlsx Format. 
 
         <br /><br />
         I deployed these data applications to their Windows Servers, and ran Github Actions Runners on a Ubuntu Server in our office, in order to enable continuous integration
@@ -126,12 +126,12 @@ export function Data() {
         
 
       </div>
-      <a href="/img/data1.png">
+      <a href="https://drive.google.com/file/d/1DO9biepJM4SPCE7JQQ_ebLlF1ev6dk08/view?usp=sharing">
           <Img3/>
         </a>
         <br />
 
-        <a href="/img/data3.png">
+        <a href="https://drive.google.com/file/d/1e1M6o6uWlQHAKMnIL0hwaoJOFNJa-EMj/view?usp=sharing">
          <Img4/>
         </a>
 
