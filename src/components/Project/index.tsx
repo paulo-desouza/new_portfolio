@@ -34,7 +34,8 @@ export function AWS_Web_Server() {
          bugs, crashes, or potential breaches and security concerns by collecting and managing log data.
 
         <br /> <br />
-        This server is a means for me to learn new tools and technologies as well as serving some of the other projects listed in this portfolio. 
+        This server runs my projects and I learn through experimenting with its configurations. 
+        <br /><br />
       </div>
 
   
@@ -61,10 +62,10 @@ export function Django_Reception() {
 
       </div><br />
 
-      <a href="/img/django1">
+      <a href="/img/django1.png">
         <Img/>
       </a>
-      <a href="https://drive.google.com/file/d/1BG09oPUaYwaLaSg4NbNNBag5ASo6RLZN/view?usp=sharing">
+      <a href="/img/django2.png">
         <Img2/>
       </a>
   
@@ -120,9 +121,6 @@ export function Data() {
         I deployed these data applications to their Windows Servers, and ran Github Actions Runners on a Ubuntu Server in our office, in order to enable continuous integration
         for updates and bug-fixes.   
         <br /><br />
-
-
-       
         
 
       </div>
